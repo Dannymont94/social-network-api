@@ -24,7 +24,7 @@ To start the server, run the following command:
 node server.js
 ```
 
-<!-- Here is a [short demo video]() to show you how each route works. -->
+Here is a [short demo video](https://drive.google.com/file/d/1PsZdY3a3uXdAV9ma-zLviBpYDZfUYI6d/view) to show you how each route works.
 
 ## Credits
 Created by Daniel Monterrosa.
