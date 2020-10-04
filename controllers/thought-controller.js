@@ -95,7 +95,7 @@ const thoughtController = {
   // delete one thought by id (and pull from user's thoughts field)
   async deleteThought(req, res) {
     try {
-      const dbThoughtInfo = await Thought.findByIdAndDelete({ _id: req.params.ThoughtId });
+      const dbThoughtInfo = await Thought.findByIdAndDelete({ _id: req.params.thoughtId });
 
       if (!dbThoughtInfo) {
         res.status(404).json({ message: `No thought found with that id.` });
