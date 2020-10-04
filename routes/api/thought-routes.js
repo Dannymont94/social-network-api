@@ -7,6 +7,8 @@ const router = require('express').Router();
 // endpoint /api/thoughts/:thoughtId
   // get one thought by id
   // update one thought by id
+  
+// endpoint /api/thoughts/:userId/:thoughtId
   // delete one thought by id
 
 // endpoint /api/thoughts/:thoughtId/reactions
